@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/Prakashchawda580/ci-cd.git'
+                git 'https://github.com/Prakashchawda580/jenkins.git'
             }
         }
 
